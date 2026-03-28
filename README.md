@@ -203,3 +203,13 @@ Talaba quyidagilarni topshirishi shart:
    * AWS EC2 instance
    * Nginx configuration
    * systemd service status
+
+
+
+AWS EC2 orqali deploy qilish rejalashtirilgan edi.
+Ammo AWS akkauntni tasdiqlash jarayonida texnik muammo yuzaga kelgani sababli deployment yakunlanmadi.
+
+Shunga qaramay, loyiha productionga tayyor holatda yozilgan:
+- Gunicorn uchun mos
+- Nginx bilan ishlashga tayyor
+- PostgreSQL bilan ishlashga moslangan.
